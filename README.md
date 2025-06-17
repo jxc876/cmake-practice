@@ -1,17 +1,12 @@
 # About
 
-A simple project to practice using CMake to build C projects.
+A simple project to practice building C projects with [CMake](https://cmake.org)
 
 It contains two executables, each which a main function.
 - `goodbye.c` — prints goodbye
 - `hello.c` — prints hello
 
-# Editor
-
-I'm using CLion by JetBrains, good tutorial here
-- https://www.jetbrains.com/help/clion/quick-cmake-tutorial.html
-
-# Build
+# Build with CLI
 
 How to build from command line
 
@@ -23,12 +18,22 @@ cmake -B build .
 make -C build
 ```
 
-Then run the binaries:
+The `-C` flag lets you run `make` from a different directory
+- https://stackoverflow.com/questions/453447
+
+Then run either of the binaries:
 
 ```shell
 ./build/helloworld
+# > Hello, World!
 ```
 
 ```shell
 ./build/goodbye
+# > Goodbye World!
 ```
+
+# Build with IDE
+
+I'm using CLion by JetBrains, good tutorial here
+- https://www.jetbrains.com/help/clion/quick-cmake-tutorial.html

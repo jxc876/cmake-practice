@@ -1,2 +1,10 @@
+# Editor files
 .idea/
+
+# CMake files
+build/
+CMakeFiles/
 cmake-build-debug/
+CMakeCache.txt
+cmake_install.cmake
+Makefile

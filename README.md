@@ -26,10 +26,9 @@ cmake -B build
 
 # run Makefile to create binaries
 make -C build
+# The -C flag lets you run `make` from a different directory
+# https://stackoverflow.com/questions/453447
 ```
-
-The `-C` flag lets you run `make` from a different directory
-- https://stackoverflow.com/questions/453447
 
 Then run either of the binaries:
 

@@ -8,7 +8,27 @@ It contains two executables, each which a main function.
 
 # Editor
 
-I'm using CLion by JetBrains
-
-Good Tutorial here
+I'm using CLion by JetBrains, good tutorial here
 - https://www.jetbrains.com/help/clion/quick-cmake-tutorial.html
+
+# Build
+
+How to build from command line
+
+```shell
+# generate Makefile
+cmake -B build . 
+
+# run Makefile to create binaries
+make -C build
+```
+
+Then run the binaries:
+
+```shell
+./build/helloworld
+```
+
+```shell
+./build/goodbye
+```

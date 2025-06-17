@@ -10,9 +10,19 @@ It contains two executables, each which a main function.
 
 How to build from command line
 
+Usage is:
+
+```shell
+# cmake [options] <path-to-source>
+# cmake [options] <path-to-existing-build>
+# cmake [options] -S <path-to-source> -B <path-to-build>
+```
+
+Give it a try:
+
 ```shell
 # generate Makefile
-cmake -B build . 
+cmake -B build 
 
 # run Makefile to create binaries
 make -C build

@@ -1,6 +1,6 @@
 # About
 
-A simple project to practice building C projects with [CMake](https://cmake.org)
+A simple project to practice building C code with [CMake](https://cmake.org)
 
 It contains two executables, each which a main function.
 - `goodbye.c` — prints goodbye
